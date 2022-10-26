@@ -1,8 +1,10 @@
 %YAML 1.2
 ---
-name: Log
-file_extensions: [txt, log]
-scope: source.markdown
+name: LOG
+file_extensions: 
+  - log
+  - txt
+scope: source.txt
 
 contexts:
   main:
